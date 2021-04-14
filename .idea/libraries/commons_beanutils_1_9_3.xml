@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="commons-beanutils-1.9.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../commons-beanutils-1.9.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../commons-collections4-4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../commons-compress-1.18.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jsoup-1.13.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../poi-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../poi-ooxml-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../poi-ooxml-schemas-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../xbean.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../FX_Practice_25032021_ZooShopPet.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../WriteExcel-master.zip!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../GBS4j11v1256.zip!/javadoc" />
+      <root url="jar://$PROJECT_DIR$/../WriteExcel-master.zip!/WriteExcel-master/javadocs" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../jsoup-1.13.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../FX_Practice_25032021_ZooShopPet.zip!/FX_Practice_25032021_ZooShopPet/src" />
+      <root url="jar://$PROJECT_DIR$/../WriteExcel-master.zip!/WriteExcel-master/src" />
+    </SOURCES>
+  </library>
+</component>
