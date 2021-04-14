@@ -30,6 +30,8 @@ public class Controller<toString> {
     @FXML TextField txt_84; @FXML TextField txt_85; @FXML TextField txt_86; @FXML TextField txt_87;
     @FXML TextField txt_88;
         public int size = 9;
+    int[][] matrix = new int[size][size];
+
 
     public void Generation(ActionEvent actionEvent) {
         int[][] matrix = new int[size][size];
@@ -98,6 +100,13 @@ public class Controller<toString> {
             count++;
         }
         while (count<50);
+        Output(matrix);
+
+
+
+    }
+
+    public void Output(int[][] matrix) {
 
 
         txt_00.setText((matrix[0][0]!=0? String.valueOf(matrix[0][0]):"")); txt_01.setText((matrix[0][1]!=0? String.valueOf(matrix[0][1]):""));txt_02.setText((matrix[0][2]!=0? String.valueOf(matrix[0][2]):""));
@@ -127,7 +136,6 @@ public class Controller<toString> {
         txt_80.setText((matrix[8][0]!=0? String.valueOf(matrix[8][0]):"")); txt_81.setText((matrix[8][1]!=0? String.valueOf(matrix[8][1]):""));txt_82.setText((matrix[8][2]!=0? String.valueOf(matrix[8][2]):""));
         txt_83.setText((matrix[8][3]!=0? String.valueOf(matrix[8][3]):"")); txt_84.setText((matrix[8][4]!=0? String.valueOf(matrix[8][4]):""));txt_85.setText((matrix[8][5]!=0? String.valueOf(matrix[8][5]):""));
         txt_86.setText((matrix[8][6]!=0? String.valueOf(matrix[8][6]):"")); txt_87.setText((matrix[8][7]!=0? String.valueOf(matrix[8][7]):""));txt_88.setText((matrix[8][8]!=0? String.valueOf(matrix[8][8]):""));
-
 
     }
 }
